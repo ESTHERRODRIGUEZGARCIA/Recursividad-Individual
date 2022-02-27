@@ -6,5 +6,8 @@ class palindromos():
     acento = str. maketrans(i,j)
     palabra = palabra.translate(acento)
     palabra = palabra.lower()
-    palabra = palabra.replace("" , "")
+    palabra = palabra.replace(" " , " ")
+    lista = list(palabra)
+    listafinal= list(reversed(palabra))
+    
     
