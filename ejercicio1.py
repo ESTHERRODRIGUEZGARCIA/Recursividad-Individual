@@ -8,5 +8,9 @@ class ejercicio():
         buscar_palabra = str(input("¿Qué palabra desea buscar?"))
     def buscar(n_medio):
         n_tabla = palabras.index(buscar_palabra)
-        if
+        if n_tabla == n_medio:
+            print(f"{buscar_palabra} se encuentra en el índice {n_tabla}")
+        elif n_tabla < n_medio:
+            buscar(n_medio - 1)
+            
         
