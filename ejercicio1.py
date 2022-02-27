@@ -3,8 +3,10 @@ palabras = ["comida", "baile", "disfrutar", "escalar", "corazón", "albóndigas"
 print(palabras)
 
 class ejercicio():
-    def buscar(self, n, tabla):
-        
-        superior = len(palabras)
+    superior = len(palabras)
         n_medio = (superior)//2
-        palabra_buscar = str(input("¿Qué palabra desea buscar?"))
+        buscar_palabra = str(input("¿Qué palabra desea buscar?"))
+    def buscar(n_medio):
+        n_tabla = palabras.index(buscar_palabra)
+        if
+        
