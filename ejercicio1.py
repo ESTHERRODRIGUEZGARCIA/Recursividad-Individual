@@ -4,4 +4,7 @@ print(palabras)
 
 class ejercicio():
     def buscar(self, n, tabla):
-        print("¿Qué palabra desea buscar?")
+        
+        superior = len(palabras)
+        n_medio = (superior)//2
+        palabra_buscar = str(input("¿Qué palabra desea buscar?"))
